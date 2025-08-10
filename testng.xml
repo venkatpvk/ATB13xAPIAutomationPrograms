@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="K:/coding/ATB13xAPIAutomationPrograms/src/test/java/com/testing/Aug8th">
+        <classes>
+            <class name="com.testing.Aug8th.RestFullBooker">
+                <methods>
+                    <include name="CreateToken"/>
+                    <include name="GetBookingIds"/>
+                    <include name="GetBooking"/>
+                    <include name="CreateBooking"/>
+                    <include name="UpdateBooking"/>
+                    <include name="PartialUpdate"/>
+                    <include name="Delete"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
